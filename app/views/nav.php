@@ -191,9 +191,20 @@
 		else
 		{
 		echo "<li style='float:right;'>
-			<a href='/Hoavu/Admin/index.php'><i class='fa fa-sign-in'></i> Đăng nhập</a>
+		
+			 <a href='/Hoavu/Admin/index.php'>
+			 <i class='fa fa-sign-in'></i> Đăng nhập
+			 </a>
+			 
+
 		</li >
-			<li style='float:right;'><a href='/Hoavu/Admin/index.php?controller=dangky'><i class='fa fa-user'></i> Đăng ký</a></li>"; } ?>
+			<li style='float:right;'>
+		
+			 <a href='/Hoavu/Admin/index.php?controller=dangky'>
+			 <i class='fa fa-user'></i> Đăng ký</a>
+			
+      
+  </li>"; } ?>
 	</ul>
 	</div>
 </div>

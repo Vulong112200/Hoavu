@@ -14,6 +14,8 @@
 		<td width="200px;">Name</td>
 		<td>Email</td>
 		<td>Quyen</td>
+		<td>Created Date</td>
+		<td>Updated Date</td>
 		<td width="100px;">More</td>
 	</tr>
 
@@ -35,6 +37,8 @@
 				echo "Admin";
 			}
 			?></td>
+		<td><?php echo $value["created"]; ?></td>
+		<td><?php echo $value["updated"]; ?></td>
 		<td>
 			<a href="index.php?controller=users/edit&id=<?php echo $value["id"];?>">Update</a>
 			<a onclick="window.confirm('Bạn có muốn xóa???');" href="index.php?controller=users/list&id=<?php echo $value["id"]; ?>&act=delete">Delete</a>

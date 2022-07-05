@@ -33,7 +33,10 @@
             <span><img src="<?php echo $value["AnhBH"]?>" style="width:40px; height:40px; margin-left:5px;"></span>
             <?php echo $value["tenBH"]?>
 			
-            <span style="position: absolute; right:15%;"><?php echo substr($value["dateTime"],0,10)?></span></button></a></li><?php  }?>
+            <span style="position: absolute; right:15%;"><?php echo substr($value["dateTime"],0,10)?></span>
+	
+			</button></a>
+		</li><?php  }?>
     </ol></div>
       
 	<div id="menu1" class="container tab-pane fade"><br>

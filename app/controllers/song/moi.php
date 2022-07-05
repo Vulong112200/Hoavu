@@ -6,6 +6,7 @@
 			$data = $this->Model->fetch("select * from song where moi!=0 ");
 			$_SESSION["title"]="Hoa Vũ - Trang nhạc";
 			include "app/views/song/moi.php";
+			
 		}
 	}
 	new moi();

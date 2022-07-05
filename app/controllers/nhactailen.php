@@ -12,6 +12,7 @@
 			include "app/views/nhactailen.php";
 		}	
 	}
+	$_SESSION["title"]="Hoa Vũ - Nhạc của tôi";
 	new Nhactailen();
 
 ?>

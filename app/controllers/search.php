@@ -14,7 +14,7 @@
 					$album=$this->Model->fetch("select * from listbh where tenList like '%$search%'");
 					$nghesi=$this->Model->fetch("select * from nghesi where tenCS like '%$search%'");
 			}
-
+			$_SESSION["title"]="Hoa Vũ - Tìm kiếm";
 			include "app/views/search.php";
 		}	
 	}

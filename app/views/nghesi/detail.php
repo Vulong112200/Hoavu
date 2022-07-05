@@ -56,7 +56,7 @@
 <div class="w3-display-container mySlides">
 	 <a href="index.php?controller=song/detail&id=<?php echo $key["maBH"] ?>">
   <img src="<?php echo $key["Anh"]?>" alt="<?php echo $key["tenBH"]?>" style="width:100%;height:400px">
-  <div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-text-white w3-black">
+  <div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-text-white content">
 	  <h4><?php echo $key["tenBH"]?></h4>
   </div></a>
 </div>

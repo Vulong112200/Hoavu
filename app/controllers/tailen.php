@@ -43,8 +43,9 @@
 					break;	
 				}
 			}
-
+			$_SESSION["title"]="Hoa Vũ - Tải lên";
 			include "app/views/tailen.php";
+			$_SESSION["title"]="Hoa Vũ - Tải lên";
 		}	
 	}
 	new Tailen();
